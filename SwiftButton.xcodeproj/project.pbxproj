@@ -13,6 +13,9 @@
 		EC3E85F3242346BD00F06F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3E85F1242346BD00F06F29 /* Main.storyboard */; };
 		EC3E85F5242346BE00F06F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3E85F4242346BE00F06F29 /* Assets.xcassets */; };
 		EC3E85F8242346BE00F06F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3E85F6242346BE00F06F29 /* LaunchScreen.storyboard */; };
+		EC3E860124234FB400F06F29 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3E85FF24234FB400F06F29 /* setting.png */; };
+		EC3E860224234FB400F06F29 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3E860024234FB400F06F29 /* key.png */; };
+		EC3E8604242361B800F06F29 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E8603242361B800F06F29 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EC3E85F4242346BE00F06F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC3E85F7242346BE00F06F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC3E85F9242346BE00F06F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3E85FF24234FB400F06F29 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		EC3E860024234FB400F06F29 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		EC3E8603242361B800F06F29 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		EC3E85EA242346BD00F06F29 /* SwiftButton */ = {
 			isa = PBXGroup;
 			children = (
+				EC3E860024234FB400F06F29 /* key.png */,
+				EC3E85FF24234FB400F06F29 /* setting.png */,
 				EC3E85EB242346BD00F06F29 /* AppDelegate.swift */,
 				EC3E85ED242346BD00F06F29 /* SceneDelegate.swift */,
 				EC3E85EF242346BD00F06F29 /* ViewController.swift */,
+				EC3E8603242361B800F06F29 /* NextViewController.swift */,
 				EC3E85F1242346BD00F06F29 /* Main.storyboard */,
 				EC3E85F4242346BE00F06F29 /* Assets.xcassets */,
 				EC3E85F6242346BE00F06F29 /* LaunchScreen.storyboard */,
@@ -125,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3E860224234FB400F06F29 /* key.png in Resources */,
+				EC3E860124234FB400F06F29 /* setting.png in Resources */,
 				EC3E85F8242346BE00F06F29 /* LaunchScreen.storyboard in Resources */,
 				EC3E85F5242346BE00F06F29 /* Assets.xcassets in Resources */,
 				EC3E85F3242346BD00F06F29 /* Main.storyboard in Resources */,
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC3E85F0242346BD00F06F29 /* ViewController.swift in Sources */,
+				EC3E8604242361B800F06F29 /* NextViewController.swift in Sources */,
 				EC3E85EC242346BD00F06F29 /* AppDelegate.swift in Sources */,
 				EC3E85EE242346BD00F06F29 /* SceneDelegate.swift in Sources */,
 			);

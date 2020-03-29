@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NextViewController.swift
 //  SwiftButton
 //
 //  Created by EMoshU on 2020/03/19.
@@ -8,18 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class NextViewController: UIViewController {
+    @IBOutlet var changeLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-    @IBAction func tap(_ sender: Any) {
-        
-        
+    @IBAction func change(_ sender: Any) {
+        changeLabel.text = "Finish"
     }
-    
 }
-
